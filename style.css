@@ -26,11 +26,11 @@ body
 #ResponseText
 {
 	color: #ffffff;
-	top: 250px;
-    left: 840px;
-    position: absolute;
 	font-size: 40px;
 	cursor: pointer;
+	text-align: center;
+	
+
 }
 
 #InputBox
@@ -43,24 +43,20 @@ body
 	border-radius: 50px;
 	outline: none;
 	width: 720px;
-	height: 50px;
+	height: 50x;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-}
-#calculator {
-    padding: 0.25rem;
-    display: inline-block;
-	
+
 }
 
 h2 {
     font-size: 2.8rem;
     font-weight: 10000;
-    top: 50px;
-    left: 840px;
-    position: absolute;
+    text-align: left;
+	left: 50px;
+    position: absolute;;
 	
 }
 
@@ -69,7 +65,7 @@ h3 {
     font-weight: 5000;
     bottom: 50px;
     left: 850px;
-    position: absolute;
+    position: absolute;;
 	
  
 
