@@ -30,32 +30,45 @@ function main()
 		ResponseText_val.innerHTML = "I'm fine! Thanks for asking!";
 
 	else if (FormatInput.includes("your name"))
-		ResponseText_val.innerHTML = "I'm Foxy your personal chatbot!";
+	{
+	        ResponseText_val.innerHTML = "I'm Foxy your personal chatbot!";
+	}
 
 	else if (FormatInput.includes("what is your name"))
+	{
 		ResponseText_val.innerHTML = "I'm Foxy your personal chatbot!";
+	}
 
 	else if (FormatInput.includes("who created you"))
+	{
 		ResponseText_val.innerHTML = "My Master Yukesh created me!";
+	}
 
 	else if (FormatInput.includes("who invented you"))
+	{
 		ResponseText_val.innerHTML = "My Master Yukesh invented me!";
+	}
 
 	else if (FormatInput.includes("who develop you"))
+	{
 		ResponseText_val.innerHTML = "My Master Yukesh invented me!";
+	}
 
 	else if (FormatInput.includes("bye"))
+	{		
 		ResponseText_val.innerHTML = "Have a good day!";
+	}
 
 
 	else if (FormatInput.includes("foxy"))
+	{
 		ResponseText_val.innerHTML = "tell me sir , can i help you!";
+	}
 
 	else if (FormatInput.includes("bye"))
+	{
 		ResponseText_val.innerHTML = "Have a good day!";
-
-
-
+	}
 
 
 
