@@ -1,1 +1,2 @@
-# [Foxy-Chatbot](https://yukesh03.github.io/Foxy-Chatbot/) 
+# [Foxy-Chatbot](https://yukiproject.netlify.app/) 
+host by netlify
