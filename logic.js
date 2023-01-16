@@ -64,7 +64,7 @@ function main()
 
 	else if (FormatInput.includes("foxy"))
 	{
-		ResponseText_val.innerHTML = "tell me sir , can i help you!";
+		ResponseText_val.innerHTML = "tell me sir,How can i help you!";
 	}
 
 	else if (FormatInput.includes("bye"))
