@@ -11,6 +11,8 @@ function IsEnter()
 	}
 }
 
+
+
 function main()
 {
 	// the main logic will be coded here.
@@ -73,6 +75,55 @@ function main()
 
 
 
+	else if (FormatInput.includes("love you"))
+	{
+		s=ResponseText_val.innerHTML = "Thank you!🥰";
+
+	}
+
+//-------------------Terms And Condition------------//
+
+	else if (FormatInput.includes("about"))
+	{
+		// "https://" is important!
+		ResponseText_val.innerHTML = "Opening Google";
+		window.open("https://www.privacypolicies.com/live/72a1e687-e395-45e2-8b09-0ff704f34426", "_blank");
+	}
+
+
+	else if (FormatInput.includes("terms"))
+	{
+		// "https://" is important!
+		ResponseText_val.innerHTML = "Opening Google";
+		window.open("https://www.privacypolicies.com/live/72a1e687-e395-45e2-8b09-0ff704f34426", "_blank");
+	}
+
+	else if (FormatInput.includes("privacy"))
+	{
+		// "https://" is important!
+		ResponseText_val.innerHTML = "Opening Google";
+		window.open("https://www.privacypolicies.com/live/72a1e687-e395-45e2-8b09-0ff704f34426", "_blank");
+	}
+
+	else if (FormatInput.includes("privacy and policy"))
+	{
+		// "https://" is important!
+		ResponseText_val.innerHTML = "Opening Google";
+		window.open("https://www.privacypolicies.com/live/72a1e687-e395-45e2-8b09-0ff704f34426", "_blank");
+	}
+
+	else if (FormatInput.includes("policy"))
+	{
+		// "https://" is important!
+		ResponseText_val.innerHTML = "Opening Google";
+		window.open("https://www.privacypolicies.com/live/72a1e687-e395-45e2-8b09-0ff704f34426", "_blank");
+	}
+
+
+
+
+//-------------------google------------//
+
 	// Open websites!
 	else if (FormatInput.includes("open google"))
 	{
@@ -81,6 +132,16 @@ function main()
 		window.open("https://www.google.com", "_blank");
 	}
 
+	else if (FormatInput.includes("google"))
+	{
+		// "https://" is important!
+		ResponseText_val.innerHTML = "Opening Google";
+		window.open("https://www.google.com", "_blank");
+	}
+
+
+//-------------------youtube------------//
+
 	else if (FormatInput.includes("open youtube"))
 	{
 		// "https://" is important!
@@ -88,13 +149,17 @@ function main()
 		window.open("https://www.youtube.com", "_blank");
 	}
 
-	else if (FormatInput.includes("open onestate"))
+	else if (FormatInput.includes("youtube"))
 	{
 		// "https://" is important!
-		ResponseText_val.innerHTML = "Opening Onestate Coding on YouTube";
-		window.open("https://www.youtube.com/channel/UCrphqZNc_r-KsOTeTKH5hwA", "_blank");
+		ResponseText_val.innerHTML = "Opening YouTube";
+		window.open("https://www.youtube.com", "_blank");
 	}
 
+
+
+
+//----------------light-lens---------------//
 	else if (FormatInput.includes("open light-lens"))
 	{
 		// "https://" is important!
@@ -102,7 +167,13 @@ function main()
 		window.open("https://github.com/Light-Lens", "_blank");
 	}
 
-
+	else if (FormatInput.includes("light lens"))
+	{
+		// "https://" is important!
+		ResponseText_val.innerHTML = "Opening Light-Lens on Github";
+		window.open("https://github.com/Light-Lens", "_blank");
+	}
+//----------------Github---------------//
 
 	else if (FormatInput.includes("open github"))
 	{
@@ -111,13 +182,36 @@ function main()
 		window.open("https://www.google.com", "_blank");
 	}
 
-	else if (FormatInput.includes("open insta"))
+	else if (FormatInput.includes("github"))
+	{
+		// "https://" is important!
+		ResponseText_val.innerHTML = "Opening github";
+		window.open("https://www.google.com", "_blank");
+	}
+
+	
+//----------------instagram---------------//
+	else if (FormatInput.includes("open insta" ))
 	{
 		// "https://" is important!
 		ResponseText_val.innerHTML = "Opening insta";
 		window.open("https://www.instagram.com/", "_blank");
 	}
 
+	else if (FormatInput.includes("instagram" ))
+	{
+		// "https://" is important!
+		ResponseText_val.innerHTML = "Opening insta";
+		window.open("https://www.instagram.com/", "_blank");
+	}
+
+	else if (FormatInput.includes("insta" ))
+	{
+		// "https://" is important!
+		ResponseText_val.innerHTML = "Opening insta";
+		window.open("https://www.instagram.com/", "_blank");
+	}
+//----------------whatsapp---------------//
 	else if (FormatInput.includes("open whatsapp"))
 	{
 		// "https://" is important!
@@ -125,8 +219,15 @@ function main()
 		window.open("https://web.whatsapp.com/", "_blank");
 	}
 
+	else if (FormatInput.includes("whatsapp"))
+	{
+		// "https://" is important!
+		ResponseText_val.innerHTML = "Opening whatsapp";
+		window.open("https://web.whatsapp.com/", "_blank");
+	}
 
-	
+
+//----------------spotify---------------//	
 	else if (FormatInput.includes("open spotify"))
 	{
 		// "https://" is important!
@@ -135,6 +236,14 @@ function main()
 	}
 
 
+	else if (FormatInput.includes("spotify"))
+	{
+		// "https://" is important!
+		ResponseText_val.innerHTML = "Opening spotify";
+		window.open("https://open.spotify.com/track/7fZBQnc0zXwVybgCIrQQil?si=14af68d3a287467b", "_blank");
+	}
+
+//----------------showflix---------------//	
 	else if (FormatInput.includes("open showflix"))
 	{
 		// "https://" is important!
@@ -142,6 +251,13 @@ function main()
 		window.open("https://showflix.in/", "_blank");
 	}
 
+	else if (FormatInput.includes("showflix"))
+	{
+		// "https://" is important!
+		ResponseText_val.innerHTML = "Opening showflix";
+		window.open("https://showflix.in/", "_blank");
+	}
+//----------------facebook---------------//	
 
 	else if (FormatInput.includes("open facebook"))
 	{
@@ -149,23 +265,54 @@ function main()
 		ResponseText_val.innerHTML = "Opening facebook";
 		window.open("https://www.facebook.com/", "_blank");
 	}
+	
+	else if (FormatInput.includes("facebook"))
+	{
+		// "https://" is important!
+		ResponseText_val.innerHTML = "Opening facebook";
+		window.open("https://www.facebook.com/", "_blank");
+	}
 
+	else if (FormatInput.includes("fb"))
+	{
+		// "https://" is important!
+		ResponseText_val.innerHTML = "Opening facebook";
+		window.open("https://www.facebook.com/", "_blank");
+	}
 
 	
-
+//----------------time---------------//	
 	else if (FormatInput.includes("time"))
 	{
 	
-		window.open("https://www.google.com/search?q=india+time+now&rlz=1C1YTUH_enIN1036IN1036&oq=india+time&aqs=chrome.0.0i67i131i433j69i57j0i131i433i512j0i20i263i512j0i131i433i512j0i20i263i512j0i131i433j0i512l3.7904j0j7&sourceid=chrome&ie=UTF-8", "_blank");
+		window.open("https://yukesh03.github.io/Digital-Clock/");
+	
 		
 	}
 
-
-	else if (FormatInput.includes("open date"))
+//----------------date---------------//	
+	else if (FormatInput.includes("date"))
 	{
 		
-		window.open("https://www.google.com/search?q=india+date&rlz=1C1YTUH_enIN1036IN1036&sxsrf=ALiCzsYoHru-cMxu6ndCrSy-ONCEPWhYNA%3A1672594175485&ei=_8KxY9ihHcS23LUP1oKM2Ag&ved=0ahUKEwiYnbvt8qb8AhVEG7cAHVYBA4sQ4dUDCBA&uact=5&oq=india+date&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzILCAAQsQMQgwEQkQIyBQgAEJECMgsIABCABBCxAxCDATIFCAAQgAQyBQgAEIAEMgUIABCABDIKCAAQgAQQhwIQFDIFCAAQgAQyBQgAEIAEMgUIABCABDoHCCMQ6gIQJzoMCAAQ6gIQtAIQQxgBOgQIIxAnOgQIABBDOhEILhCABBCxAxCDARDHARDRAzoQCAAQgAQQhwIQsQMQgwEQFDoICAAQsQMQgwE6CAgAEIAEELEDOgsILhCDARCxAxCABDoOCC4QgAQQsQMQxwEQ0QM6CAguEIAEELEDOgUILhCABEoECEEYAEoECEYYAVAAWP0pYLYtaAFwAXgAgAGlAYgBkwuSAQQwLjEwmAEAoAEBsAEUwAEB2gEGCAEQARgB&sclient=gws-wiz-serp", "_blank");
+		window.open("https://yukesh03.github.io/Digital-Clock/");
 	}
+
+//----------------netlify---------------//	
+
+	
+	else if (FormatInput.includes("open netlify"))
+	{
+		
+		window.open("https://www.netlify.com/");
+	}
+
+	else if (FormatInput.includes("netlify"))
+	{
+		
+		window.open("https://www.netlify.com/");
+	}
+
+
 
 
 	else
