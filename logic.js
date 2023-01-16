@@ -86,7 +86,7 @@ function main()
 	else if (FormatInput.includes("about"))
 	{
 		// "https://" is important!
-		ResponseText_val.innerHTML = "Opening Google";
+		ResponseText_val.innerHTML = "Opening Terms And Condition";
 		window.open("https://www.privacypolicies.com/live/72a1e687-e395-45e2-8b09-0ff704f34426", "_blank");
 	}
 
@@ -94,28 +94,28 @@ function main()
 	else if (FormatInput.includes("terms"))
 	{
 		// "https://" is important!
-		ResponseText_val.innerHTML = "Opening Google";
+		ResponseText_val.innerHTML = "Opening Terms And Condition";
 		window.open("https://www.privacypolicies.com/live/72a1e687-e395-45e2-8b09-0ff704f34426", "_blank");
 	}
 
 	else if (FormatInput.includes("privacy"))
 	{
 		// "https://" is important!
-		ResponseText_val.innerHTML = "Opening Google";
+		ResponseText_val.innerHTML = "Opening Terms And Condition";
 		window.open("https://www.privacypolicies.com/live/72a1e687-e395-45e2-8b09-0ff704f34426", "_blank");
 	}
 
 	else if (FormatInput.includes("privacy and policy"))
 	{
 		// "https://" is important!
-		ResponseText_val.innerHTML = "Opening Google";
+		ResponseText_val.innerHTML = "Opening Terms And Condition";
 		window.open("https://www.privacypolicies.com/live/72a1e687-e395-45e2-8b09-0ff704f34426", "_blank");
 	}
 
 	else if (FormatInput.includes("policy"))
 	{
 		// "https://" is important!
-		ResponseText_val.innerHTML = "Opening Google";
+		ResponseText_val.innerHTML = "Opening Terms And Condition";
 		window.open("https://www.privacypolicies.com/live/72a1e687-e395-45e2-8b09-0ff704f34426", "_blank");
 	}
 
